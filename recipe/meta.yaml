@@ -11,12 +11,16 @@ source:
   sha256: dc15b671af4345fc97b833c0578ababa971341bf73ec6160131d337bbfe18ba6
 
 build:
-  number: 0
+  noarch: generic
+  number: 1
 
 requirements:
   build:
     # But lets add a dependency to get some hashes
     - {{ compiler('c') }}
+  run:
+    - __unix  # [unix]
+    - __win   # [win]
 
 test:
   commands:
