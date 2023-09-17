@@ -16,9 +16,6 @@ build:
   number: 1
 
 requirements:
-  build:
-    # But lets add a dependency to get some hashes
-    - {{ compiler('c') }}
   run:
     - __unix  # [unix]
     - __win   # [win]
