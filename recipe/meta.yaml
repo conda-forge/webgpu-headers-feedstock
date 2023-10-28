@@ -1,6 +1,10 @@
 {% set name = "webgpu-headers" %}
-{% set githash_version = "0bab8d7d01ef38cb871eb18be9daaa525db2575c" %}
-{% set version = "0.0.0.2023.10.24." + githash_version[:7] %}
+{% set githash_version = "b760e9e09da78e3d10b4cf5a8cdc9264ff74d08f" %}
+{% set version = "0.0.0.2023.9.30." + githash_version[:7] %}
+# The latest version is actually the one below, but we also needed to release 2023.9.30
+# {% set githash_version = "0bab8d7d01ef38cb871eb18be9daaa525db2575c" %}
+# {% set version = "0.0.0.2023.10.24." + githash_version[:7] %}
+#   sha256: 5cc04cbd6b5c0aaba44222264b7c310c7e03a0731db62719529179530b2bff5b
 
 package:
   name: {{ name|lower }}
@@ -8,7 +12,7 @@ package:
 
 source:
   url: https://github.com/webgpu-native/webgpu-headers/archive/{{ githash_version }}.tar.gz
-  sha256: 5cc04cbd6b5c0aaba44222264b7c310c7e03a0731db62719529179530b2bff5b
+  sha256: 8eae0899d248dc0a7805f55465f6d191d431b47deb9983844477361ffdf7cbcd
 
 build:
   noarch: generic
