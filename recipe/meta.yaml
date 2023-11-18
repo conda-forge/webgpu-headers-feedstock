@@ -1,5 +1,5 @@
 {% set githash_version = "0bab8d7d01ef38cb871eb18be9daaa525db2575c" %}
-{% set version = "0.0.0.2023.8.24." + githash_version[:7] %}
+{% set version = "0.0.0.2023.10.24." + githash_version[:7] %}
 
 package:
   name: webgpu-headers
