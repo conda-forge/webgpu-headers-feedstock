@@ -1,5 +1,5 @@
-{% set githash_version = "0bab8d7d01ef38cb871eb18be9daaa525db2575c" %}
-{% set version = "0.0.0.2023.10.24." + githash_version[:7] %}
+{% set githash_version = "d02fec1b96af29695b9f5659a91067a241f40b04" %}
+{% set version = "0.0.0.2023.11.27." + githash_version[:7] %}
 
 package:
   name: webgpu-headers
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/webgpu-native/webgpu-headers/archive/{{ githash_version }}.tar.gz
-  sha256: 5cc04cbd6b5c0aaba44222264b7c310c7e03a0731db62719529179530b2bff5b
+  sha256: 00960a72ac49140a775195ed77a6c8e33c3c4653427f2e6a718388c17679a0a9
 
 build:
   noarch: generic
