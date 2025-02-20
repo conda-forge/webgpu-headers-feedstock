@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/webgpu-native/webgpu-headers/archive/{{ githash_version }}.tar.gz
-  sha256: 4fbafa8abdf45624ebc7f4714d9bba88cfeb3cfaaf1e232639eb5494b4f4e2b2
+  sha256: 623444b066f2bc048bf60235bbf4e1c9eeb72ab22e2b043f1ca2b5d229863bc8
 
 build:
   noarch: generic
